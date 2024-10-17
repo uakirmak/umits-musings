@@ -1,0 +1,41 @@
+# Python (Flask) related files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+instance/
+*.db
+*.sqlite3
+*.log
+
+# Flask specific
+instance/
+.env
+
+# Node.js (Svelte) related files
+node_modules/
+dist/
+.svelte-kit/
+.svelte/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS related files
+.DS_Store
+Thumbs.db
+
+# Editor specific files (e.g., for PyCharm, VSCode)
+.idea/
+.vscode/
+*.swp
+*~
+
+# JetBrains specific files
+*.iml
+*.iws
+*.ipr
+
