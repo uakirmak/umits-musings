@@ -17,7 +17,7 @@
 
 		
 <div class="py-8 my-10">
-  {#each allPosts as post, index (post.id)}
+  {#each allPosts as post (post.id)}
   <h3>{post.title}</h3>
   <p>{post.content}</p>
   <button on:click={handleDelete(post.id)} class="delete-button border p-1 shadow-md hover:border-blue-500 max-w-fit px-4">Delete</button>

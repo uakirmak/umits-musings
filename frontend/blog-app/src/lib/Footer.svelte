@@ -9,6 +9,10 @@
 
 <div class="">
 
-<p class="py-3">@ {currentYear} - Umit Akirmak</p>
+<p class="py-4 px-1 space-x-1"> 
+  <span>@ {currentYear} </span>
+  <span>-</span> 
+  <span>Umit Akirmak</span>
+</p>
 
 </div>

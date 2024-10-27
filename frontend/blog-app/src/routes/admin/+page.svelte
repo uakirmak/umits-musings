@@ -2,6 +2,7 @@
 
 import { posts } from '../../stores/postsStore';
 
+
 let title = "";
 let content = "";
 
@@ -9,7 +10,7 @@ let content = "";
 function handleSubmit(event) {
   
   event.preventDefault();
-  
+
   posts.update(currentPosts => [...currentPosts, {
     "id": Date.now(), 
     "title":title, 
@@ -24,10 +25,12 @@ function handleSubmit(event) {
 
 </script>
 
+<div class="my-10">
+  <div class="">
 <h1>Welcome to Admin</h1>
 
 <h2 class="border py-2 my-2"> Create a new blog post</h2>
-
+</div>
 
 <div class="border px-2 mx-2 font-roboto">
   <form action="#" class="flex flex-col">
@@ -39,3 +42,4 @@ function handleSubmit(event) {
   </form>
   </div>
   
+</div>

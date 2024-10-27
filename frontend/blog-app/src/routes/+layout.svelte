@@ -16,7 +16,7 @@ import Footer from "$lib/Footer.svelte"
 <!--Top layout container -->
 <div class="container mx-auto border">
 <!-- Navigation -->
-<nav class="flex flex-row justify-center bg-gray-200 font-montserrat">
+<nav class="border-b border-red-200 flex flex-row justify-center bg-gray-200 font-montserrat">
 
   <NavBar />
 
@@ -31,7 +31,7 @@ import Footer from "$lib/Footer.svelte"
 
 
 <!-- Footer Element -->
-<footer class="flex flex-row justify-start bg-gray-200  font-merriweather">
+<footer class="border-t border-red-200 flex flex-row justify-start bg-gray-200  font-merriweather">
 <Footer />
 </footer>
 </div>
